@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DentalPlus</title>
+    <link href="./css/style.css" rel="stylesheet" >
+  </head>
+  <body>
+
+<section class="content registro">
+<div class="contenedor">
+    <img src="img/logo2.jpg" class="avatar" alt="Avatar Image">
+    <div class="form sign-in-contenedor col-md-4 mx-auto">
+        <h1>Iniciar sesión</h1>
+        <div class="formulario">
+            <form action="/Login" method="POST">
+                <!-- USUARIO -->
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="Nombre de usuario" name="UsuI" autofocus>
+                <!-- CONTRASEÑA -->
+                <label for="password">Contraseña</label>
+                <input type="password" placeholder="Contraseña" name="pass" required>
+                <input type="submit" value="Iniciar sesión">
+                <a class="no-account" href="/form">¿No tiene una cuenta?</a>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+<table class="table caption-top">
+  <caption>Listado de pacientes</caption>
+  <thead>
+   <th scope="col">#</th>
+      <th scope="col">usuario</th>
+      <th scope="col">nombre</th>
+      <th scope="col">correo</th>
+  </thead>
+  <tbody>
+     {{#each odontologos}}
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">{{usuario}}</th>
+      <th scope="col">{{nombre}}</th>
+      <th scope="col">{{correo}}</th>
+    </tr>
+    {{/each }}
+  </tbody>
+</table>
